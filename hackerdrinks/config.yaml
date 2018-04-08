@@ -3,6 +3,7 @@ baseURL: https://hackerdrinks.sg
 languageCode: en-us
 title: hackerdrinks
 metaDataFormat: yaml
+publishDir: ../public
 params:
   author: hackerdrinks
   info: a gossip-consensus, social networking protocol, facilitated by alcohol
