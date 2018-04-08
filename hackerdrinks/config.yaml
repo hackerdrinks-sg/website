@@ -1,0 +1,16 @@
+theme: coder
+baseURL: https://hackerdrinks.sg
+languageCode: en-us
+title: hackerdrinks
+metaDataFormat: yaml
+params:
+  author: hackerdrinks
+  info: a gossip-consensus, social networking protocol, facilitated by alcohol
+  next:
+    date: 19 Apr 2018, Thursday, 7pm
+    venue: TBC
+  social:
+   github:
+     name: Github
+     url: https://github.com/hackerdrinks-sg
+
