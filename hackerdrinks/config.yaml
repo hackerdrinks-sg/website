@@ -4,6 +4,7 @@ languageCode: en-us
 title: hackerdrinks
 metaDataFormat: yaml
 publishDir: ../public
+googleAnalytics: UA-117111154-1
 params:
   author: hackerdrinks
   info: a gossip-consensus, social networking protocol, facilitated by alcohol
