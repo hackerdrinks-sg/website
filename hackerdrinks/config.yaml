@@ -11,6 +11,7 @@ params:
   next:
     date: 24 Jan 2019, Thursday, 7pm
     venue: "Bluemist Cafe and Bistro, Blk 9 Tanjong Pagar Plaza, #01-103, Singapore 081007 (https://goo.gl/maps/6CUc44qUr332)"
+  instances: 2
   social:
    github:
      name: Github
