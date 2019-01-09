@@ -10,7 +10,7 @@ params:
   info: a gossip-consensus, social networking protocol, facilitated by alcohol
   next:
     date: 24 Jan 2019, Thursday, 7pm
-    venue: "Bluemist Cafe and Bistro, Blk 7 Tanjong Pagar Plaza, #01-103, Singapore 081007 (https://goo.gl/maps/456r2sTZfsm)"
+    venue: "Bluemist Cafe and Bistro, Blk 7 Tanjong Pagar Plaza, #01-103, Singapore 081007"
   instances: 2
   social:
    github:
