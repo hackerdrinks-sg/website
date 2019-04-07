@@ -9,11 +9,10 @@ params:
   author: hackerdrinks
   info: a gossip-consensus, social networking protocol, facilitated by alcohol
   next:
-    date: 24 Jan 2019, Thursday, 7pm
-    venue: "Bluemist Cafe and Bistro, Blk 7 Tanjong Pagar Plaza, #01-103, Singapore 081007"
+    date: 18 April 2019, Thu, 7pm
+    venue: "99.co, 71 Ayer Rajah Crescent, #05-14, Singapore 139951"
   instances: 2
   social:
    github:
      name: Github
      url: https://github.com/hackerdrinks-sg
-
