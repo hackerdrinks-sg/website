@@ -9,8 +9,13 @@ params:
   author: hackerdrinks
   info: a gossip-consensus, social networking protocol, facilitated by alcohol
   next:
-    date: 20 June 2019, Thu, 7pm
-    venue: "Referral Candy, Blk 71 Ayer Rajah Crescent, #06-26, Singapore 139951"
+    date1: 20 June 2019
+    date2: Thursday
+    date3: 7pm
+    venue1: "Referral Candy"
+    venue2: "Blk 71 Ayer Rajah Crescent"
+    venue3: "#06-26"
+    venue4: "Singapore 139951"
   instances: 2
   social:
    github:

@@ -1,8 +1,17 @@
 <section class="container centered">
   <div class="about" id="banner">
     <h1>{{ .Site.Params.author }}</h1>
-    <h2>{{ .Site.Params.info }}</h2>
-    <h2>{{ .Site.Params.next.date }} - {{ .Site.Params.next.venue }}</h2>
+    <h5 id="info">{{ .Site.Params.info }}</h5>
+    <div class="beer">🍻</div>
+    <h2>{{ .Site.Params.next.date1 }}</h2> 
+    <h2>{{ .Site.Params.next.date2 }}</h2> 
+    <h2>{{ .Site.Params.next.date3 }}</h2> 
+    <div class="beer">🍻</div>
+    <h2>{{ .Site.Params.next.venue1 }}</h2>
+    <h2>{{ .Site.Params.next.venue2 }}</h2>
+    <h2>{{ .Site.Params.next.venue3 }}</h2>
+    <h2>{{ .Site.Params.next.venue4 }}</h2>
+    <div class="beer">🍻</div>
     {{ with .Site.Params.social }}
     <ul>
       {{ range sort .}}
