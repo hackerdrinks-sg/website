@@ -21,3 +21,6 @@ params:
    github:
      name: Github
      url: https://github.com/hackerdrinks-sg
+   instagram:
+     name: Instagram
+     url: https://www.instagram.com/hackerdrinks
