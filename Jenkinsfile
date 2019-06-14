@@ -45,7 +45,7 @@ spec:
           dir("public"){
           	sshagent(['githubssh']) {
 							sh "git add ."
-							sh "git commit -m 'test me'"
+							sh "git commit --allow-empty -m 'built from: ${env.GIT_COMMIT}'"
 							sh "git remote rm origin"
 							sh "git remote add origin git@github.com:hackerdrinks-sg/website.git > /dev/null 2>&1"   
 							sh "git push origin master"
