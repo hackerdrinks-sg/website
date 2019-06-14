@@ -10,16 +10,18 @@ metadata:
   labels:
     some-label: some-label-value
 spec:
+  imagePullSecrets:
+  - name: gitlab-homelab
   containers:
   - name: dind
-    image: jojomi/hugo:latest
+    image: registry.gitlab.com/davidchua/homelab/hugo-builder:latest
 #    image: docker:18.05-dind
     command:
     - cat
     tty: true
     env:
     - name: DOCKER_HOST
-      value: "tcp://192.168.1.34:2375"
+      value: "tcp://[2401:7400:8000:0:3:0:c0a8:0122]:2375"
 """
 
     }
@@ -27,6 +29,9 @@ spec:
 
   stages {
     stage('Build and Push Image') {
+      environment{
+			    GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
+        }
 			steps {
         checkout scm
 					// get the env
@@ -37,12 +42,19 @@ spec:
 					sh "mkdir -p hackerdrinks/content"
           sh "cd hackerdrinks && hugo"
           sh "git status"
-          sh "cd public && ls && git add ."
-          sh "cd public && git commit -m 'test me'"
-          sh "git log master --graph --decorate --pretty=oneline --abbrev-commit"
-          sh "cd public && git push origin master"
+          dir("public"){
+          	sshagent(['githubssh']) {
+							sh "git add ."
+							sh "git commit -m 'test me'"
+							sh "git remote rm origin"
+							sh "git remote add origin git@github.com:hackerdrinks-sg/website.git > /dev/null 2>&1"   
+							sh "git push origin master"
+							sh "git log master --graph --decorate --pretty=oneline --abbrev-commit"
+  					 }
+          }
 					sh "echo Workspace dir is ${pwd()}"
       }
     }
   }
 }
+
