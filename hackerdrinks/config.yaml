@@ -9,11 +9,11 @@ params:
   author: hackerdrinks
   info: a gossip-consensus, social networking protocol, facilitated by alcohol
   next:
-    date1: 15 August 2019
+    date1: 19 September 2019
     date2: Thursday
     date3: 7pm
-    venue1: "Indochine"
-    venue2: "Holland Village"
+    venue1: "Bluemist Cafe"
+    venue2: "Tanjong Pagar"
     venue3: ""
     venue4: ""
   instances: 2
