@@ -1,3 +1,20 @@
+## Local Development
+
+[Install hugo](https://gohugo.io/getting-started/installing/)
+
+Start hugo server
+
+    hugo server
+
+If you are only modifying the venue and date, you just need to update `hackerdrinks/config.yaml` or `hackerdrinks/layouts/partials/home.html`
+
+## Deployment
+
+Check in and push source branch to origin
+
+Jenkins will build and merge to master
+
+Github pages will server the static file
 
 ## Theming
 
