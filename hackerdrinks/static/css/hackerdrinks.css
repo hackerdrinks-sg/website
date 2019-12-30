@@ -8,3 +8,7 @@
 #info {
   line-height: 22px;
 }
+#venue_link {
+  color: blue;
+  text-decoration: underline;
+}

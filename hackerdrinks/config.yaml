@@ -12,7 +12,8 @@ params:
     date1: 16 Jan 2020
     date2: Thursday
     date3: 7.00pm
-    venue1: "shield.com"
+    venue1: shield.com
+    venue1Link: https://shield.com
     venue2: "1 Fifth Ave, Guthrie House"
     venue3: "#04-06"
     venue4: "Singapore 268802"
