@@ -9,14 +9,13 @@ params:
   author: hackerdrinks
   info: a gossip-consensus, social networking protocol, facilitated by alcohol
   next:
-    date1: 21 November 2019
+    date1: 16 Jan 2020
     date2: Thursday
-    date3: 7.00pm - Dinner @ Timbre+
-    date4: 7.45pm - hackerdrinks @ 99.co
-    venue1: "99.co"
-    venue2: "Blk 71 Ayer Rajah Crescent"
-    venue3: "#05-14"
-    venue4: "Singapore 139951"
+    date3: 7.00pm
+    venue1: "shield.com"
+    venue2: "1 Fifth Ave, Guthrie House"
+    venue3: "#04-06"
+    venue4: "Singapore 268802"
   instances: 2
   social:
    github:
