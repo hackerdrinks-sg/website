@@ -35,17 +35,9 @@
     {{ partial "header.html" . }}
 
       <div class="content">
-        {{ block "content" . }}{{ end }}
+        {{ partial "events/venue.html" . }}
       </div>
-      <!-->
-      <div class="container centered">
-        <ul>
-          <li>
-        <a href="/events">past events</a>
-          </li>
-        </ul>
-      </div>
-      -->
+
       {{ partial "footer.html" . }}
     </main>
 

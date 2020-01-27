@@ -1,0 +1,10 @@
++++
+title = "Timbre+"
+date = "21 Nov 2019"
+day = "Thursday"
+time = "7.00pm"
+venue1 = "99.co"
+venue2 = "Blk 71 Ayer Rajah Crescent"
+venue3 = "#05-14"
+venue4 = "Singapore 139951"
++++

@@ -5,6 +5,10 @@ title: hackerdrinks
 metaDataFormat: yaml
 publishDir: ../public
 googleAnalytics: UA-117111154-1
+menu:
+  main:
+  - name: "past events"
+    url: "/events"
 params:
   author: hackerdrinks
   info: a gossip-consensus, social networking protocol, facilitated by alcohol
