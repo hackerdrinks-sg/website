@@ -1,17 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hackerdrinks.sg/categories/</loc>
+    <loc>https://hackerdrinks.sg/events/20200116-guthrie-house/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hackerdrinks.sg/</loc>
+    <loc>https://hackerdrinks.sg/events/20191121-timbre-plus/</loc>
+    <lastmod>2019-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hackerdrinks.sg/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hackerdrinks.sg/events/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hackerdrinks.sg/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hackerdrinks.sg/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

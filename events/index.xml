@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hackerdrinks</title>
-    <link>https://hackerdrinks.sg/</link>
-    <description>Recent content on hackerdrinks</description>
+    <title>Events on hackerdrinks</title>
+    <link>https://hackerdrinks.sg/events/</link>
+    <description>Recent content in Events on hackerdrinks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://hackerdrinks.sg/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hackerdrinks.sg/events/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
