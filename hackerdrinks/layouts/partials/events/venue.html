@@ -3,11 +3,11 @@
     <h1>{{ .Site.Title }}</h1>
     <h5 id="info">{{ .Site.Params.info }}</h5>
     <div class="beer">🍻</div>
-    <h2>{{ dateFormat "02 January 2006" .Date }}</h2> 
+    <h2>{{ dateFormat "02 January 2006" (.Param "date") }}</h2> 
     <h2>{{ .Param "day" }}</h2> 
     <h2>{{ .Param "time" }}</h2> 
     <div class="beer">🍻</div>
-    <h2><a id="venue_link" href="{{ .Site.Params.next.venue1Link }}"
+    <h2><a id="venue_link" href="{{ .Param "venue1" }}"
         target="_blank">{{ .Param "venue1" }}</a></h2>
     <h2>{{ .Param "venue2"}} </h2>
     <h2>{{ .Param "venue3"}} </h2>

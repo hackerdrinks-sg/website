@@ -1,3 +1,3 @@
-{{ range first 1 (where .Site.Pages "Section" "events") }}
+{{ range first 1 (where .Pages "Section" "events") }}
   {{ partial "events/venue.html" . }}
 {{ end }}
