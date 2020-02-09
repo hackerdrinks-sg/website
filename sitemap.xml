@@ -3,8 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hackerdrinks.sg/events/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hackerdrinks.sg/events/20200116-guthrie-house/</loc>
     <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hackerdrinks.sg/</loc>
+    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -13,24 +25,32 @@
   </url>
   
   <url>
+    <loc>https://hackerdrinks.sg/events/20190815-indochine/</loc>
+    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hackerdrinks.sg/events/20190620-referralcandy/</loc>
+    <lastmod>2019-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hackerdrinks.sg/events/20190516-bluemist/</loc>
+    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hackerdrinks.sg/events/20190418-99-co/</loc>
+    <lastmod>2019-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hackerdrinks.sg/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hackerdrinks.sg/events/</loc>
-    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://hackerdrinks.sg/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hackerdrinks.sg/</loc>
-    <lastmod>2020-01-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
