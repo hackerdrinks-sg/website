@@ -36,7 +36,7 @@ spec:
         sh "ls"
         sh "git worktree add public master"
         sh "mkdir -p hackerdrinks/content"
-        sh "cd hackerdrinks && hugo"
+        sh "cd hackerdrinks && hugo -F"
         sh "git status"
       }
     }

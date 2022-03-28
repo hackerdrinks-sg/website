@@ -13,14 +13,14 @@ params:
   author: hackerdrinks
   info: a gossip-consensus, social networking protocol, facilitated by alcohol
   next:
-    date1: 16 Jan 2020
+    date1: "07 Apr 2022"
     date2: Thursday
     date3: 7.00pm
-    venue1: shield.com
+    venue1: "Bluemist Cafe and Bistro"
     venue1Link: https://shield.com
-    venue2: "1 Fifth Ave, Guthrie House"
-    venue3: "#04-06"
-    venue4: "Singapore 268802"
+    venue2: "Blk 7 Tanjong Pagar Plaza"
+    venue3: "#01-103"
+    venue4: "Singapore 081007"
   instances: 2
   social:
    github:
