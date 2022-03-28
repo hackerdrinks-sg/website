@@ -48,8 +48,7 @@ spec:
         branch 'source'
       }
       steps {
-        checkout scm
-          // get the env
+        // get the env
 //        sh "ls"
 //        sh "git worktree add public master"
 //        sh "mkdir -p hackerdrinks/content"
