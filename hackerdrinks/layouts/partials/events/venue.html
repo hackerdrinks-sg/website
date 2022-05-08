@@ -3,7 +3,7 @@
     <h1>{{ .Site.Title }}</h1>
     <h5 id="info">{{ .Site.Params.info }}</h5>
     <div class="beer">🍻</div>
-    <h2>{{ $.Page.Param "date" | time.Format "2 Jan 2006" }}</h1>
+    <h2>{{ .Date.Format "02 Jan 2006"}}</h1>
     <h2>{{ $.Page.Param "day" }}</h2> 
     <h2>{{ $.Page.Param "time" }}</h2> 
     <div class="beer">🍻</div>
