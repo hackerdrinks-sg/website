@@ -4,19 +4,24 @@
   
   <url>
     <loc>https://hackerdrinks.sg/events/</loc>
-    <lastmod>2022-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hackerdrinks.sg/events/20220728-sgtaps/</loc>
+    <lastmod>2022-07-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hackerdrinks.sg/</loc>
+    <lastmod>2022-07-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hackerdrinks.sg/events/20220519-timbre-plus/</loc>
     <lastmod>2022-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hackerdrinks.sg/</loc>
-    <lastmod>2022-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
