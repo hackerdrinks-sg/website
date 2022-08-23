@@ -11,7 +11,7 @@ menu:
     url: "/events"
 params:
   author: hackerdrinks
-  info: a gossip-consensus, social networking protocol, facilitated by alcohol
+  info: a non-fungible, gossip-consensus, social networking protocol, facilitated by alcohol
   next:
     date1: "07 Apr 2022"
     date2: Thursday
@@ -21,7 +21,7 @@ params:
     venue2: "Blk 7 Tanjong Pagar Plaza"
     venue3: "#01-103"
     venue4: "Singapore 081007"
-  instances: 2
+  instances: 15
   social:
    github:
      name: Github
