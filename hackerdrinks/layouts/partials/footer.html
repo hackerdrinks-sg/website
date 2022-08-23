@@ -1,5 +1,5 @@
 <footer class="footer">
   <section class="container">
-    © {{ .Site.Params.instances | printf "%04d"  }} · Powered by <a href="https://gohugo.io/">Hugo</a>, 🍻, and ☕.
+    © {{  where .Site.Pages "Section" "events" | len | printf "%04d"  }} · Powered by <a href="https://gohugo.io/">Hugo</a>, 🍻, and ☕.
   </section>
 </footer>
