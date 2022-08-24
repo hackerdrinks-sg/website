@@ -12,16 +12,6 @@ menu:
 params:
   author: hackerdrinks
   info: a non-fungible, gossip-consensus, social networking protocol, facilitated by alcohol
-  next:
-    date1: "07 Apr 2022"
-    date2: Thursday
-    date3: 7.00pm
-    venue1: "Bluemist Cafe and Bistro"
-    venue1Link: https://shield.com
-    venue2: "Blk 7 Tanjong Pagar Plaza"
-    venue3: "#01-103"
-    venue4: "Singapore 081007"
-  instances: 15
   social:
    github:
      name: Github

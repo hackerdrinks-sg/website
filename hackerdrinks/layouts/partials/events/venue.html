@@ -3,15 +3,16 @@
     <h1>{{ .Site.Title }}</h1>
     <h5 id="info">{{ .Site.Params.info }}</h5>
     <div class="beer">🍻</div>
-    <h2>{{ .Date.Format "02 Jan 2006"}}</h1>
-    <h2>{{ $.Page.Param "day" }}</h2> 
-    <h2>{{ $.Page.Param "time" }}</h2> 
+    <h2>{{ .Params.title }}</h2>
+    <h2>{{ .Date.Format "02 Jan 2006" }}</h1>
+    <h2>{{ .Params.day }}</h2>
+    <h2>{{ .Params.time }}</h2>
     <div class="beer">🍻</div>
-    <h2><a id="venue_link" href="{{ $.Param "venue_link" }}"
-        target="_blank">{{ $.Param "venue1" }}</a></h2>
-    <h2>{{ $.Param "venue2"}} </h2>
-    <h2>{{ $.Param "venue3"}} </h2>
-    <h2>{{ $.Param "venue4"}} </h2>
+    <h2><a id="venue_link" href="{{ .Params.venue_link }}"
+        target="_blank">{{ .Params.venue1 }}</a></h2>
+    <h2>{{ .Params.venue2 }}</h2>
+    <h2>{{ .Params.venue3 }}</h2>
+    <h2>{{ .Params.venue4 }}</h2>
     <div class="beer">🍻</div>
     {{ with .Site.Params.social }}
     <ul>
