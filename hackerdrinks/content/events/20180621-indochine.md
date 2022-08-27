@@ -7,4 +7,5 @@ venue1 = "Indochine"
 venue2 = "Holland Village"
 venue3 = ""
 venue4 = ""
+photo1 = "/photos/20180621-indochine.jpg"
 +++
