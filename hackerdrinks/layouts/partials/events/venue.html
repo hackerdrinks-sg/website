@@ -13,6 +13,12 @@
     <h2>{{ .Params.venue2 }}</h2>
     <h2>{{ .Params.venue3 }}</h2>
     <h2>{{ .Params.venue4 }}</h2>
+    {{ if isset .Params "photo1" }}
+    <div class="beer">🍻</div>
+    <div>
+      <a href="{{ .Params.photo1 }}" ><img width="600px" src="{{ .Params.photo1 }}" /></a>
+    </div>
+    {{ end }}
     <div class="beer">🍻</div>
     {{ with .Site.Params.social }}
     <ul>
