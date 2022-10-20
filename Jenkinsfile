@@ -1,31 +1,6 @@
 pipeline {
-  agent {
-    kubernetes {
-      label 'dind'
-      defaultContainer 'dind'
-      yaml """
-apiVersion: v1
-kind: Pod
-metadata:
-  labels:
-    some-label: some-label-value
-spec:
-  imagePullSecrets:
-  - name: gitlab-homelab
-  containers:
-  - name: dind
-    image: registry.gitlab.com/davidchua/homelab/hugo-builder:latest
-#    image: docker:18.05-dind
-    command:
-    - cat
-    tty: true
-    env:
-    - name: DOCKER_HOST
-      value: "tcp://[2401:7400:8000:0:3:0:c0a8:0122]:2375"
-"""
 
-    }
-  }
+  agent any
 
   stages {
     stage('Build') {
