@@ -2,9 +2,14 @@ pipeline {
 
   agent any
 
+    options {
+      skipDefaultCheckout(true)
+    }
+
   stages {
     stage('Build') {
       steps {
+        cleanWs()
         checkout scm
         sh "git config --global user.name 'Jenkins CI'"
         sh "git config --global user.email 'jenkins-ci@example.com'"
