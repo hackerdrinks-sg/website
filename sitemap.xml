@@ -1,112 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://hackerdrinks.sg/events/</loc>
-    <lastmod>2022-08-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+    <lastmod>2022-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hackerdrinks.sg/</loc>
+    <lastmod>2022-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hackerdrinks.sg/events/20220929-bluemist/</loc>
+    <lastmod>2022-09-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20220825-bluemist/</loc>
     <lastmod>2022-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hackerdrinks.sg/</loc>
-    <lastmod>2022-08-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20220728-sgtaps/</loc>
     <lastmod>2022-07-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20220519-timbre-plus/</loc>
     <lastmod>2022-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20220407-bluemist/</loc>
     <lastmod>2022-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20200116-guthrie-house/</loc>
     <lastmod>2020-01-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20191121-timbre-plus/</loc>
     <lastmod>2019-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20190815-indochine/</loc>
     <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20180802-bluemist/</loc>
     <lastmod>2019-08-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20190718-bluemist/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20190620-referralcandy/</loc>
     <lastmod>2019-06-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20190516-bluemist/</loc>
     <lastmod>2019-05-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20190418-99-co/</loc>
     <lastmod>2019-04-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20190124-bluemist/</loc>
     <lastmod>2019-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20181108-tbd/</loc>
     <lastmod>2018-11-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20180621-indochine/</loc>
     <lastmod>2018-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20180419-drinksandco/</loc>
     <lastmod>2018-04-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/events/20180118-bluemist/</loc>
     <lastmod>2018-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hackerdrinks.sg/tags/</loc>
-    <priority>0</priority>
   </url>
-  
 </urlset>

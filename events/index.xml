@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on hackerdrinks</title>
@@ -6,10 +6,15 @@
     <description>Recent content in Events on hackerdrinks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Aug 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://hackerdrinks.sg/events/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 29 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hackerdrinks.sg/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hit me Bluemist one more time!</title>
+      <link>https://hackerdrinks.sg/events/20220929-bluemist/</link>
+      <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hackerdrinks.sg/events/20220929-bluemist/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hit me Bluemist one more time!</title>
